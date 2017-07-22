@@ -285,8 +285,6 @@ a:hover {
     margin: 8rem 20rem;
 }
 
-.image-container {}
-
 .image-container img {
     float: left;
     height: 120px;
@@ -332,4 +330,27 @@ a:hover {
     font-size: 3rem;
     background-size: cover;
     vertical-align: middle;
+}
+
+.section-facilities {
+    margin: 8rem 20rem;
+}
+
+.section-facilities h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.section-facilities img {
+    height: 100px;
+    width: auto;
+    float: right;
+}
+
+.facilities {
+    line-height: 2.5rem;
+}
+
+.caption-1 {
+    postion: absolute;
 }
