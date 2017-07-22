@@ -75,3 +75,22 @@ Input Border Bottom (Focus): #967343 */
         font-weight: 200;
         margin: -2rem 0 3rem 0;
     }
+    
+    .top-row-image {
+        display: flex;
+    }
+    
+    .product-1 {
+        max-height: 400px;
+        max-width: auto;
+    }
+    
+    .product-2 {
+        max-height: 400px;
+        max-width: auto;
+    }
+    
+    .product-3 {
+        max-height: 400px;
+        max-width: auto;
+    }
