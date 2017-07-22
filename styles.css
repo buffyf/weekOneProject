@@ -102,10 +102,9 @@ a:link {
 
 /* visited link */
 
-
-/* a:visited {
+a:visited {
     color: #968772;
-} */
+}
 
 
 /* mouse over link */
@@ -122,14 +121,21 @@ a:active {
     /* }Starting Style in Body */
 }
 
-h1 {
+footer {
+    background-color: #3d3e3f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.headline h1 {
     font-size: 4rem;
     text-align: center;
     font-weight: 400;
     margin-top: 100px;
 }
 
-h2 {
+.headline h2 {
     font-size: 2rem;
     text-align: center;
     font-weight: 200;
@@ -165,40 +171,6 @@ a:hover {
 /* a:active {
     color: red;
 } */
-
-
-/* h1 {
-    font-size: 4rem;
-    text-align: center;
-    font-weight: 400;
-}
-
-h2 {
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 200;
-    margin: -2rem 0 3rem 0;
-} */
-
-
-/* .top-row-images {
-    display: flex;
-}
-
-.product-1 {
-    max-height: 400px;
-    max-width: auto;
-}
-
-.product-2 {
-    max-height: 400px;
-    max-width: auto;
-}
-
-.product-3 {
-    max-height: 400px;
-    max-width: auto;
-}   */
 
 .images-top-row {
     list-style: none;
@@ -307,4 +279,57 @@ h2 {
     margin-top: 10px;
     background-repeat: no-repeat, no-repeat, no-repeat;
     /* background-position: bottom right, left, right; */
+}
+
+.wrapper-about {
+    margin: 8rem 20rem;
+}
+
+.image-container {}
+
+.image-container img {
+    float: left;
+    height: 120px;
+    width: auto;
+    padding: 0 1.2rem .2rem 0;
+}
+
+.wrapper-about h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.wrapper-about h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.main-text p {
+    line-height: 2.5rem;
+}
+
+.quote blockquote {
+    font-style: italic;
+    line-height: 2rem;
+    font-weight: 200;
+    border-left: 1px solid #968772;
+    padding: 0 0 0 1.5rem;
+}
+
+.room-to-grow {
+    height: 250px;
+    width: 100%;
+    line-height: 250px;
+}
+
+.room-to-grow h1 {
+    background-image: url("images/background-3.jpg");
+    background-position: 15% 50%;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 3rem;
+    background-size: cover;
+    vertical-align: middle;
 }
