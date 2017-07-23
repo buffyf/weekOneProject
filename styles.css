@@ -354,14 +354,12 @@ figure {
 .newsletter {
     background-image: url("images/background-2.jpg");
     width: 100%;
-    height: 400px;
-    margin-top: 10px;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    /* background-position: bottom right, left, right; */
-}
-
-.newsletter {
+    height: 800px;
+    margin-top: 10x;
     padding: 80px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* zoom: 40%; */
+    /* background-position: bottom right, left, right;    */
 }
 
 .form {
@@ -373,7 +371,7 @@ figure {
 
 .form h2 {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 100;
     padding: 1rem;
     margin: -30px -30px 30px -30px;
@@ -419,6 +417,3 @@ figure {
 /* .input[type="button"]:hover, .input[type="submit"]:hover {
     background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
     background-color: #34CACA; */
-
-
-}
