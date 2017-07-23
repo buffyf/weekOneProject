@@ -123,20 +123,20 @@ a:active {
 
 /* }Starting Style in Body */
 
-
-}
 footer {
     background-color: #3d3e3f;
     color: white;
     font-size: 1.2rem;
     padding: 1rem;
 }
+
 .headline h1 {
     font-size: 4rem;
     text-align: center;
     font-weight: 400;
     margin-top: 100px;
 }
+
 .headline h2 {
     font-size: 2rem;
     text-align: center;
@@ -144,26 +144,35 @@ footer {
     margin: -2rem 0 3rem 0;
 }
 
+
 /* unvisited link */
+
 a:link {
     color: #2B2F26;
 }
 
+
 /* visited link */
+
 a:visited {
     color: #968772;
 }
 
+
 /* mouse over link */
+
 a.selected, a:hover {
     color: #CD5D67;
 }
 
+
 /* Active link */
+
 
 /* a:active {
     color: red;
 } */
+
 .images-top-row {
     list-style: none;
     padding: 2rem;
@@ -172,6 +181,7 @@ a.selected, a:hover {
     height: 400px;
     margin-bottom: -63px;
 }
+
 .product-1 {
     width: 58.5%;
     background-image: url("images/product-1.jpg");
@@ -181,6 +191,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .product-2 {
     width: 18.5%;
     overflow: hidden;
@@ -190,6 +201,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .product-3 {
     width: 18.5%;
     overflow: hidden;
@@ -199,6 +211,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .images-bottom-row {
     list-style: none;
     padding: 0;
@@ -207,6 +220,7 @@ a.selected, a:hover {
     height: 240px;
     padding: 2rem;
 }
+
 .product-4 {
     width: 18.5%;
     overflow: hidden;
@@ -216,6 +230,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .product-5 {
     width: 18.5%;
     overflow: hidden;
@@ -225,6 +240,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .product-6 {
     width: 39%;
     overflow: hidden;
@@ -234,6 +250,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .product-7 {
     width: 18.5%;
     overflow: hidden;
@@ -243,6 +260,7 @@ a.selected, a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .caption {
     position: absolute;
     height: 50px;
@@ -255,28 +273,35 @@ a.selected, a:hover {
     padding: 1rem;
 }
 
+
 /* start about.html styling */
+
 .wrapper-about {
     margin: 8rem 20rem;
 }
+
 .image-container img {
     float: left;
     height: 120px;
     width: auto;
     padding: 0 1.2rem .2rem 0;
 }
+
 .wrapper-about h1 {
     text-align: center;
     font-weight: 400;
     font-size: 4rem;
 }
+
 .wrapper-about h2 {
     font-weight: 200;
     font-size: 2rem;
 }
+
 .main-text p {
     line-height: 2.5rem;
 }
+
 .quote blockquote {
     font-style: italic;
     line-height: 2rem;
@@ -284,11 +309,13 @@ a.selected, a:hover {
     border-left: 1px solid #968772;
     padding: 0 0 0 1.5rem;
 }
+
 .room-to-grow {
     height: 250px;
     width: 100%;
     line-height: 250px;
 }
+
 .room-to-grow h1 {
     background-image: url("images/background-3.jpg");
     background-position: 15% 50%;
@@ -299,16 +326,20 @@ a.selected, a:hover {
     background-size: cover;
     vertical-align: middle;
 }
+
 .section-facilities {
     margin: 5rem 20rem;
 }
+
 .section-facilities h2 {
     font-weight: 200;
     font-size: 2rem;
 }
+
 .facilities {
     line-height: 2.5rem;
 }
+
 figure {
     float: right;
     width: 27%;
@@ -317,7 +348,9 @@ figure {
     font-size: smaller;
 }
 
+
 /* start newsletter styling */
+
 .newsletter {
     background-image: url("images/background-2.jpg");
     width: 100%;
@@ -325,4 +358,67 @@ figure {
     margin-top: 10px;
     background-repeat: no-repeat, no-repeat, no-repeat;
     /* background-position: bottom right, left, right; */
+}
+
+.newsletter {
+    padding: 80px;
+}
+
+.form {
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 1rem;
+    margin: -30px -30px 30px -30px;
+}
+
+.form p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem;
+    margin: -30px -30px 30px -30px;
+}
+
+.form input[type="text"], .form input[type="email"] {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 0 0 .2rem 0;
+    border: none;
+    border-bottom: 1px solid #968772;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #968772;
+    font-size: 1rem;
+    height: 60px;
+}
+
+.form input[type="button"], .form input[type="submit"] {
+    background-color: #968772;
+    border: 1px solid #968772;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transform: translateX(13rem);
+    margin-top: 1rem;
+}
+
+
+/* .input[type="button"]:hover, .input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color: #34CACA; */
+
+
 }
