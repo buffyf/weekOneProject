@@ -333,7 +333,7 @@ a:hover {
 }
 
 .section-facilities {
-    margin: 8rem 20rem;
+    margin: 5rem 20rem;
 }
 
 .section-facilities h2 {
@@ -341,16 +341,14 @@ a:hover {
     font-size: 2rem;
 }
 
-.section-facilities img {
-    height: 100px;
-    width: auto;
-    float: right;
-}
-
 .facilities {
     line-height: 2.5rem;
 }
 
-.caption-1 {
-    postion: absolute;
+figure {
+    float: right;
+    width: 27%;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: smaller;
 }
