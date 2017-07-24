@@ -31,21 +31,23 @@
     <div class="newsletter">
 
         <div class="form">
+
             <h2>Sign Up for Our Weekly Newsletter</h2>
             <p>Stay up to date with events, activities, news and specials.</p>
             <form>
-                <input id="inputName" type="text" name="field1" placeholder="Name" />
-                <input id="inputEmail" type="email" name="field2" placeholder="Email" />
-                <input id="submitButton" type="button" value="Submit" />
+                <!-- include action and method="post" in form tag -->
+                <input type="text" id="inputName" name="field1" placeholder="Name" />
+                <input type="email" id="inputEmail" name="field2" placeholder="Email" />
+                <input type="button" id="submitButton" value="Submit" />
             </form>
         </div>
 
     </div>
 
 
-    <footer>
+    <!-- <footer>
         <p>Copyright 2017, Bent Creek Ceramics</p>
-    </footer>
+    </footer> -->
     <script type="text/javascript">
         var nameInput = document.getElementById('nameInput');
         var emailInput = document.getElementById('emailInput');
