@@ -73,7 +73,7 @@ Input Border Bottom (Focus): #967343 */
                         a:active {
                             color: #968772;
                         }
-                        /* }Starting Style in Body */
+                        /* ----------Starting Style in Body */
                         
                         footer {
                             background-color: #3d3e3f;
@@ -111,107 +111,10 @@ Input Border Bottom (Focus): #967343 */
                             color: #CD5D67;
                         }
                         /* Active link */
-                        /* a:active {
-    color: red;
-} */
-                        /* .images-top-row {
-        list-style: none;
-        padding: 2rem;
-        display: flex;
-        justify-content: space-around;
-        height: 400px;
-        margin-bottom: -63px;
-    }
-    
-    .product-1 {
-        width: 58.5%;
-        background-image: url("images/product-1.jpg");
-        overflow: hidden;
-        background-position: 60% 10%;
-        zoom: 55%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .product-2 {
-        width: 18.5%;
-        overflow: hidden;
-        background-image: url("images/product-2.jpg");
-        background-position: 50% 50%;
-        zoom: 50%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .product-3 {
-        width: 18.5%;
-        overflow: hidden;
-        background-image: url("images/product-3.jpg");
-        background-position: 20% 20%;
-        zoom: 32%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .images-bottom-row {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-        height: 240px;
-        padding: 2rem;
-    }
-    
-    .product-4 {
-        width: 18.5%;
-        overflow: hidden;
-        background-image: url("images/product-4.jpg");
-        background-position: 10% 50%;
-        zoom: 35%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .product-5 {
-        width: 18.5%;
-        overflow: hidden;
-        background-image: url("images/product-5.jpg");
-        background-position: 0% 50%;
-        zoom: 35%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .product-6 {
-        width: 39%;
-        overflow: hidden;
-        background-image: url("images/product-6.jpg");
-        background-position: 50% 20%;
-        zoom: 55%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .product-7 {
-        width: 18.5%;
-        overflow: hidden;
-        background-image: url("images/product-7.jpg");
-        background-position: 15% 40%;
-        zoom: 35%;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    
-    .caption {
-        position: absolute;
-        height: 50px;
-        bottom: 0px;
-        left: 0px;
-        color: #F2F1E8;
-        background: #3d3e3f;
-        text-align: center;
-        font-size: 2rem;
-        padding: 1rem; */
+                        
+                        a:active {
+                            color: #968772;
+                        }
                         
                         .images-top-row {
                             display: flex;
@@ -298,7 +201,7 @@ Input Border Bottom (Focus): #967343 */
                             font-size: 1rem;
                             padding: 1rem 1rem 0 1rem;
                         }
-                        /* start about.html styling */
+                        /* ------------start about.html styling */
                         
                         .wrapper-about {
                             margin: 8rem 20rem;
@@ -399,20 +302,15 @@ Input Border Bottom (Focus): #967343 */
                         table, td, th {
                             border: 1px solid #3d3e3f;
                             border-collapse: collapse;
-                            /* margin-bottom: 15px; */
                             padding: 1rem
                         }
-                        /* start newsletter styling */
+                        /* -----------start newsletter styling */
                         
                         .newsletter {
                             background-image: url("images/background-2.jpg");
-                            width: 100%;
-                            height: 800px;
-                            margin-top: 10x;
-                            padding: 80px;
-                            background-repeat: no-repeat, no-repeat, no-repeat;
-                            /* zoom: 40%; */
-                            /* background-position: bottom right, left, right;    */
+                            background-size: cover;
+                            height: 100vh;
+                            display: flex;
                         }
                         
                         .form {
@@ -420,6 +318,7 @@ Input Border Bottom (Focus): #967343 */
                             padding: 30px;
                             background: #FFFFFF;
                             margin: 50px auto;
+                            align-self: center;
                         }
                         
                         .form h2 {
@@ -457,7 +356,7 @@ Input Border Bottom (Focus): #967343 */
                             background-color: #968772;
                             border: 1px solid #968772;
                             cursor: pointer;
-                            color: #FFFFFF;
+                            color: #F2F1E8;
                             font-family: 'Roboto', sans-serif;
                             font-size: 14px;
                             padding: 10px 15px;
@@ -465,6 +364,8 @@ Input Border Bottom (Focus): #967343 */
                             transform: translateX(13rem);
                             margin-top: 1rem;
                         }
-                        /* .input[type="button"]:hover, .input[type="submit"]:hover {
-    background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-    background-color: #34CACA; */
+                        
+                        #submitButton:hover {
+                            background-color: #967343;
+                            color: #fff;
+                        }
